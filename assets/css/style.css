@@ -1,0 +1,49 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #39a6b2cd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* apply styles to the <header> */
+header {
+    padding: 20px 35px;
+    background-color:red;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: red;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+margin: 0 30px;
+font-weight: lighter;
+font-size: 22px;
+}
+.hero {
+    background-image: url("../images/p-background.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
