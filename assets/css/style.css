@@ -1,6 +1,6 @@
 body {
-    color:bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif 
+    color bisque;
 }
 
 header {
@@ -17,4 +17,48 @@ header h1 {
 header a{
     text-decoration-color: black;
     color: black;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+/* Hero Start */
+
+    .hero {
+        background-image: url("../images/p-background.jpg");
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+.hero div {
+    margin-right: -50px;
+}
+/* Hero End */
+.info {
+    text-align: center;
+}
+.info h2 {
+    font-size: 55px;
+    color: #764002;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #6238fc;
+}
+
+.info p {
+    line-height: 1.7;
+    color: #9639b2;
+    width: 80%;
+    font-size: 20px;
+ margin: 0 auto;
 }
