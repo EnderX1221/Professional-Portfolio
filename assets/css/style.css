@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif 
     color bisque;
@@ -43,6 +48,8 @@ header nav ul li a {
     margin-right: -50px;
 }
 /* Hero End */
+
+/* About section */
 .info {
     text-align: center;
 }
@@ -56,9 +63,20 @@ header nav ul li a {
 }
 
 .info p {
-    line-height: 1.7;
+    line-height: 1.5;
     color: #9639b2;
     width: 80%;
     font-size: 20px;
  margin: 0 auto;
+}
+.apps {
+    display:flex;
+    text-align:center;
+background-color: rgba(0, 0, 0, 0.692);
+}
+.apps h2 {
+    font-size: 35px;
+    color: #e211e275;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
 }
